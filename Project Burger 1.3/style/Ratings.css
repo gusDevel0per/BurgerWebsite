@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Classic;
+    src: url(../Fonts/classica_3/Classica-Bold.ttf);
+}
+body {
+    background-image: url(../images/IMG_fundo_editada.jpg);
+}
+#header{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 0, 0, 0.7);
+    font-family: Classic;
+    font-size: 20px;
+}
+.menus {
+    margin-top: 43px;
+}
+
+.rating{
+    padding: 1%;
+    background-color: beige;
+    list-style: none;
+    display: flex;
+}
+
+.review{
+    margin-left: 10px;
+}
+.pfp{
+    border: 1px solid black;
+    margin-right: 7%;
+    margin-top: 5%;
+    
+}
+footer{
+
+    height: 100px;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.7);
+    
+   
+}
+.media{
+    margin: 10px;
+    
+}
